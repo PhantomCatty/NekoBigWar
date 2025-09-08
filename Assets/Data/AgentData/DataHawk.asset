@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f95c09cb5b16843bdbf2e1397c5fc9, type: 3}
+  m_Name: DataHawk
+  m_EditorClassIdentifier: 
+  weaponType: 1
+  bulletSpeed: 25
+  damage: 30
+  mDamage: 0
+  pierceNum: 1
+  fireInterval: 1
+  bulletType: 4
+  magazing: 1
+  reloadTime: 1
+  targetType: 1
+  armorPierce: 30
+  mArmorPierce: 0
+  maxHP: 560
+  moveSpeed: 1.1
+  agentStatus: 0
+  range: 3
+  detectRange: 3
+  armor: 50
+  mArmor: 0
+  agentType: 5
+  entityType: 0
+  AssignCost: 40
+  SkillCost: 40
+  respawnTime: 30
+  skillCD: 40
+  initialStatus: 1
+  agentIcon: {fileID: 21300000, guid: 14e9265d7bb8d3b498b47abcf85cdcc9, type: 3}
+  skillIcon: {fileID: 21300000, guid: 9b438d5a89c5dd842aa713fd294eb54f, type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f95c09cb5b16843bdbf2e1397c5fc9, type: 3}
+  m_Name: DataDelta
+  m_EditorClassIdentifier: 
+  weaponType: 3
+  bulletSpeed: 25
+  damage: 8
+  mDamage: 0
+  pierceNum: 1
+  fireInterval: 0.15
+  bulletType: 1
+  magazing: 3
+  reloadTime: 1.2
+  targetType: 1
+  armorPierce: 20
+  mArmorPierce: 0
+  maxHP: 480
+  moveSpeed: 0.625
+  agentStatus: 0
+  range: 4
+  detectRange: 4
+  armor: 35
+  mArmor: 0
+  agentType: 3
+  entityType: 0
+  AssignCost: 35
+  SkillCost: 20
+  respawnTime: 30
+  skillCD: 30
+  initialStatus: 0
+  agentIcon: {fileID: 21300000, guid: ca3c70995c2871347a77d64395c5ab70, type: 3}
+  skillIcon: {fileID: 21300000, guid: bc2c7f1e2f42fb24289f6dbe0f2cf271, type: 3}

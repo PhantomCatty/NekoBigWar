@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7195c76d0fdfa6b47af8fa8e2b94336b, type: 3}
+  m_Name: ObjectPoolData
+  m_EditorClassIdentifier: 
+  buLongPrefab: {fileID: 3494741343660320790, guid: ad3781160e91f6f4b983377c6c16a3b8, type: 3}
+  enPatrollerPrefab: {fileID: 7434632141407775145, guid: ae8173a91e66f5f45a2f26439ee40788, type: 3}
+  enJackhammerPrefab: {fileID: 7434632141407775145, guid: de8578e6f5a2824469c25c8415782723, type: 3}
+  enHoundPrefab: {fileID: 7434632141407775145, guid: de58b4a08988372439829bce41122801, type: 3}
+  enTowerPrefab: {fileID: 7434632141407775145, guid: 83a08c1d9f52138479296c486e075be1, type: 3}
+  buShortPrefab: {fileID: 3494741343660320790, guid: 59383b4ed8dc40c46a5dfdd29b74b8f6, type: 3}
+  buShortRPrefab: {fileID: 3494741343660320790, guid: 4f9863e308c95b54caa942e2522cd8e8, type: 3}
+  buLongRPrefab: {fileID: 3494741343660320790, guid: 56ea4e08d01c79b4a877d68061dcbd69, type: 3}
+  buArrowPrefab: {fileID: 3494741343660320790, guid: 7582a450a85e97945a8dbfd22a8fa661, type: 3}
+  damageNumPrefab: {fileID: 2479221926653930039, guid: abf4f7b6ff2140846a4c97cb4fcfc4aa, type: 3}
+  damageNumMagicPrefab: {fileID: 2479221926653930039, guid: a34b4db4382702141babf1dff86a4ae8, type: 3}
+  damageNumTruthPrefab: {fileID: 2479221926653930039, guid: cc8f493f09610114cabb2333fa7e59f3, type: 3}
+  healNumPrefab: {fileID: 2479221926653930039, guid: 15cb88c12154bd5408b11dea038595eb, type: 3}
+  selectedIconPrefab: {fileID: 8163850338246848282, guid: 052e97851b330e94aba15144d6bbf53c, type: 3}
+  HPBarPrefab: {fileID: 3342858409030608252, guid: 796fa908d14254a4f8906bb833c79651, type: 3}
+  HPBarBPrefab: {fileID: 3342858409030608252, guid: 429ef4b328564b84387d1152ec8eaf16, type: 3}

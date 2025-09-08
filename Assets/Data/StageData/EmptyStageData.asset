@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5b9df6e02d11e41b12a9890f9a22f4, type: 3}
+  m_Name: EmptyStageData
+  m_EditorClassIdentifier: 
+  mode: 0
+  ALLY_DIES: 1000
+  TIME: 600
+  ENEMY_BASE: 1000
+  ALLY_BASE: 1
+  ENEMY_DIES: 50
+  PLAYER_DIES: 1
+  ALLY_SCORE: 10000
+  ENEMY_SCORE: 10000
+  TimeNodes: []
+  Waves: []

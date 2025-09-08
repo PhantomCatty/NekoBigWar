@@ -1,0 +1,272 @@
+Date : 2025-09-01 14:25:26
+Directory : d:\u3d项目\Neko Big War
+Total : 198 files,  111694 codes, 894 comments, 1729 blanks, all 114317 lines
+
+Languages
++-------------+------------+------------+------------+------------+------------+
+| language    | files      | code       | comment    | blank      | total      |
++-------------+------------+------------+------------+------------+------------+
+| XML         |         87 |     98,007 |         75 |         77 |     98,159 |
+| C#          |         78 |      5,264 |        737 |        865 |      6,866 |
+| Log         |          8 |      5,218 |          0 |         96 |      5,314 |
+| UnityShader |         17 |      2,338 |         82 |        644 |      3,064 |
+| JSON        |          6 |        775 |          0 |          7 |        782 |
+| Markdown    |          2 |         92 |          0 |         40 |        132 |
++-------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                               |        198 |    111,694 |        894 |      1,729 |    114,317 |
+| . (Files)                                                                                                                       |         75 |     78,348 |         75 |         75 |     78,498 |
+| Assets                                                                                                                          |         65 |      7,646 |        709 |        935 |      9,290 |
+| Assets\DOTween                                                                                                                  |         10 |      4,516 |        555 |        224 |      5,295 |
+| Assets\DOTween (Files)                                                                                                          |          1 |      3,077 |          0 |          1 |      3,078 |
+| Assets\DOTween\Editor                                                                                                           |          1 |        144 |          0 |          1 |        145 |
+| Assets\DOTween\Modules                                                                                                          |          8 |      1,295 |        555 |        222 |      2,072 |
+| Assets\Scripts                                                                                                                  |         37 |        637 |         72 |         65 |        774 |
+| Assets\Scripts\AgentScript                                                                                                      |          4 |        290 |         34 |         29 |        353 |
+| Assets\Scripts\DataObject                                                                                                       |          5 |         31 |          0 |          1 |         32 |
+| Assets\Scripts\EnemyScript                                                                                                      |          3 |         87 |         26 |          8 |        121 |
+| Assets\Scripts\FortificationScript                                                                                              |          4 |         25 |          1 |          0 |         26 |
+| Assets\Scripts\GamePlay                                                                                                         |          2 |         19 |         -1 |          0 |         18 |
+| Assets\Scripts\NekoScript                                                                                                       |          1 |          1 |          0 |          0 |          1 |
+| Assets\Scripts\Skill                                                                                                            |          8 |         75 |          0 |         12 |         87 |
+| Assets\Scripts\Skill (Files)                                                                                                    |          1 |          2 |          0 |          0 |          2 |
+| Assets\Scripts\Skill\AgentPSkills                                                                                               |          6 |         21 |          0 |          6 |         27 |
+| Assets\Scripts\Skill\FortificationPSkills                                                                                       |          1 |         52 |          0 |          6 |         58 |
+| Assets\Scripts\UI                                                                                                               |          4 |         15 |          0 |          0 |         15 |
+| Assets\Scripts\Util                                                                                                             |          3 |         71 |          7 |          8 |         86 |
+| Assets\Scripts\WeaponScript                                                                                                     |          3 |         23 |          5 |          7 |         35 |
+| Assets\TextMesh Pro                                                                                                             |         18 |      2,493 |         82 |        646 |      3,221 |
+| Assets\TextMesh Pro\Shaders                                                                                                     |         17 |      2,338 |         82 |        644 |      3,064 |
+| Assets\TextMesh Pro\Sprites                                                                                                     |          1 |        155 |          0 |          2 |        157 |
+| Logs                                                                                                                            |          8 |      5,218 |          0 |         96 |      5,314 |
+| Packages                                                                                                                        |         50 |     20,482 |        110 |        623 |     21,215 |
+| Packages (Files)                                                                                                                |          2 |        574 |          0 |          2 |        576 |
+| Packages\System.Collections.NonGeneric.4.3.0                                                                                    |         10 |     16,438 |          0 |          0 |     16,438 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref                                                                                |         10 |     16,438 |          0 |          0 |     16,438 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3                                                                 |         10 |     16,438 |          0 |          0 |     16,438 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3 (Files)                                                         |          1 |      1,543 |          0 |          0 |      1,543 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\de                                                              |          1 |      1,553 |          0 |          0 |      1,553 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\es                                                              |          1 |      1,592 |          0 |          0 |      1,592 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\fr                                                              |          1 |      1,630 |          0 |          0 |      1,630 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\it                                                              |          1 |      1,584 |          0 |          0 |      1,584 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ja                                                              |          1 |      1,878 |          0 |          0 |      1,878 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ko                                                              |          1 |      1,878 |          0 |          0 |      1,878 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ru                                                              |          1 |      1,515 |          0 |          0 |      1,515 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\zh-hans                                                         |          1 |      1,626 |          0 |          0 |      1,626 |
+| Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\zh-hant                                                         |          1 |      1,639 |          0 |          0 |      1,639 |
+| Packages\com.h8man.2d.navmeshplus                                                                                               |         38 |      3,470 |        110 |        621 |      4,201 |
+| Packages\com.h8man.2d.navmeshplus (Files)                                                                                       |          2 |         63 |          0 |         21 |         84 |
+| Packages\com.h8man.2d.navmeshplus\NavMeshComponents                                                                             |         35 |      3,368 |        110 |        578 |      4,056 |
+| Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor                                                                      |         14 |      1,581 |         48 |        326 |      1,955 |
+| Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts                                                                     |         21 |      1,787 |         62 |        252 |      2,101 |
+| Packages\com.h8man.2d.navmeshplus\Unity                                                                                         |          1 |         39 |          0 |         22 |         61 |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+
+| filename                                                                                                                        | language    | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+
+| d:\u3d项目\Neko Big War\Assembly-CSharp.csproj                                                                                    | XML         |      1,072 |          1 |          1 |      1,074 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\DOTween.XML                                                                                | XML         |      3,077 |          0 |          1 |      3,078 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Editor\DOTweenEditor.XML                                                                   | XML         |        144 |          0 |          1 |        145 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleAudio.cs                                                              | C#          |         94 |         80 |         25 |        199 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs                                                         | C#          |        109 |         18 |         20 |        147 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModulePhysics.cs                                                            | C#          |        137 |         60 |         20 |        217 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModulePhysics2D.cs                                                          | C#          |        125 |         51 |         18 |        194 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleSprite.cs                                                             | C#          |         63 |         17 |         14 |         94 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUI.cs                                                                 | C#          |        390 |        203 |         70 |        663 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs                                                       | C#          |        254 |         99 |         37 |        390 |
+| d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUtils.cs                                                              | C#          |        123 |         27 |         18 |        168 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentAimDetector.cs                                                            | C#          |         21 |          1 |          4 |         26 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentBasic.cs                                                                  | C#          |         11 |          0 |          0 |         11 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentController.cs                                                             | C#          |        259 |         33 |         25 |        317 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentSkill.cs                                                                  | C#          |         -1 |          0 |          0 |         -1 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\AgentData.cs                                                                    | C#          |          2 |          0 |          0 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\EnemyData.cs                                                                    | C#          |          2 |          0 |          0 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\FortificationData.cs                                                            | C#          |          2 |          0 |          0 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\ObjectPoolData.cs                                                               | C#          |         23 |          0 |          1 |         24 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\WeaponData.cs                                                                   | C#          |          2 |          0 |          0 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyAimDetector.cs                                                            | C#          |         -2 |          2 |          0 |          0 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyBasic.cs                                                                  | C#          |          7 |          0 |          0 |          7 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyController.cs                                                             | C#          |         82 |         24 |          8 |        114 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\BaseBasic.cs                                                           | C#          |          5 |          0 |          0 |          5 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\BaseController.cs                                                      | C#          |         11 |          0 |          0 |         11 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\FortificationBasic.cs                                                  | C#          |         -1 |          0 |          0 |         -1 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\FortificationController.cs                                             | C#          |         10 |          1 |          0 |         11 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\BuffCalculator.cs                                                                 | C#          |          8 |         -1 |          0 |          7 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\SelectionManager.cs                                                               | C#          |         11 |          0 |          0 |         11 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\NekoScript\NekoMove.cs                                                                     | C#          |          1 |          0 |          0 |          1 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillBarrel.cs                                                         | C#          |          7 |          0 |          1 |          8 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillDelta.cs                                                          | C#          |          4 |          0 |          1 |          5 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillFletcher.cs                                                       | C#          |          4 |          0 |          2 |          6 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillHawk.cs                                                           | C#          |          1 |          0 |          1 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillNanic.cs                                                          | C#          |          1 |          0 |          0 |          1 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillSpectia.cs                                                        | C#          |          4 |          0 |          1 |          5 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\FortificationPSkills\HQCannonPSkill.cs                                               | C#          |         52 |          0 |          6 |         58 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Skill\PassiveSkillBasic.cs                                                                 | C#          |          2 |          0 |          0 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\UI\DamageNum.cs                                                                            | C#          |         -5 |          0 |          1 |         -4 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\UI\InfoCanvas.cs                                                                           | C#          |         16 |          0 |          0 |         16 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerInGame.cs                                                                   | C#          |          1 |          0 |          0 |          1 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\UI\WaveController.cs                                                                       | C#          |          3 |          0 |         -1 |          2 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Util\AnimatorEventProxy.cs                                                                 | C#          |         27 |          5 |          6 |         38 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Util\BaseAnimEventController.cs                                                            | C#          |          8 |          0 |          1 |          9 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\Util\ObjectPool.cs                                                                         | C#          |         36 |          2 |          1 |         39 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\BulletBasic.cs                                                                | C#          |         15 |          4 |          6 |         25 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\FireController.cs                                                             | C#          |          4 |          1 |          1 |          6 |
+| d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\WeaponBasic.cs                                                                | C#          |          4 |          0 |          0 |          4 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader                                                | UnityShader |        109 |          2 |         33 |        144 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader                                                      | UnityShader |        112 |          3 |         31 |        146 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader                                                             | UnityShader |        109 |          2 |         33 |        144 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader                                                        | UnityShader |        243 |          4 |         71 |        318 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader                                                            | UnityShader |        241 |          4 |         66 |        311 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader                                                 | UnityShader |        188 |         10 |         50 |        248 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader                                                 | UnityShader |        183 |          8 |         50 |        241 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader                                                     | UnityShader |         82 |          4 |         21 |        107 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader                                                         | UnityShader |        183 |          8 |         50 |        241 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader                                                 | UnityShader |        103 |          8 |         28 |        139 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader                                                        | UnityShader |        122 |          4 |         33 |        159 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF.shader                                                                | UnityShader |        243 |          4 |         71 |        318 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader                                                             | UnityShader |         97 |          0 |         20 |        117 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro.cginc                                                                   | UnityShader |         63 |          2 |         20 |         85 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc                                                            | UnityShader |        122 |          2 |         34 |        158 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc                                                        | UnityShader |         62 |         10 |         14 |         86 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc                                                           | UnityShader |         76 |          7 |         19 |        102 |
+| d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Sprites\EmojiOne.json                                                                 | JSON        |        155 |          0 |          2 |        157 |
+| d:\u3d项目\Neko Big War\Cinemachine.csproj                                                                                        | XML         |      1,040 |          1 |          1 |      1,042 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker0-prev.log                                                                          | Log         |        967 |          0 |         17 |        984 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker0.log                                                                               | Log         |        104 |          0 |          2 |        106 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker1-prev.log                                                                          | Log         |        943 |          0 |         17 |        960 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker1.log                                                                               | Log         |        104 |          0 |          2 |        106 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker2.log                                                                               | Log         |      1,569 |          0 |         27 |      1,596 |
+| d:\u3d项目\Neko Big War\Logs\AssetImportWorker3.log                                                                               | Log         |      1,527 |          0 |         27 |      1,554 |
+| d:\u3d项目\Neko Big War\Logs\shadercompiler-AssetImportWorker0.log                                                                | Log         |          2 |          0 |          2 |          4 |
+| d:\u3d项目\Neko Big War\Logs\shadercompiler-UnityShaderCompiler.exe0.log                                                          | Log         |          2 |          0 |          2 |          4 |
+| d:\u3d项目\Neko Big War\NavMeshPlus.csproj                                                                                        | XML         |        976 |          1 |          1 |        978 |
+| d:\u3d项目\Neko Big War\NavMeshPlusEditor.csproj                                                                                  | XML         |        996 |          1 |          1 |        998 |
+| d:\u3d项目\Neko Big War\PPv2URPConverters.csproj                                                                                  | XML         |        998 |          1 |          1 |      1,000 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\System.Collections.NonGeneric.xml         | XML         |      1,543 |          0 |          0 |      1,543 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\de\System.Collections.NonGeneric.xml      | XML         |      1,553 |          0 |          0 |      1,553 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\es\System.Collections.NonGeneric.xml      | XML         |      1,592 |          0 |          0 |      1,592 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\fr\System.Collections.NonGeneric.xml      | XML         |      1,630 |          0 |          0 |      1,630 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\it\System.Collections.NonGeneric.xml      | XML         |      1,584 |          0 |          0 |      1,584 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ja\System.Collections.NonGeneric.xml      | XML         |      1,878 |          0 |          0 |      1,878 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ko\System.Collections.NonGeneric.xml      | XML         |      1,878 |          0 |          0 |      1,878 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\ru\System.Collections.NonGeneric.xml      | XML         |      1,515 |          0 |          0 |      1,515 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\zh-hans\System.Collections.NonGeneric.xml | XML         |      1,626 |          0 |          0 |      1,626 |
+| d:\u3d项目\Neko Big War\Packages\System.Collections.NonGeneric.4.3.0\ref\netstandard1.3\zh-hant\System.Collections.NonGeneric.xml | XML         |      1,639 |          0 |          0 |      1,639 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\AgentOverride2dEditor.cs                       | C#          |         18 |          8 |          4 |         30 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\CollectSources2dEditor.cs                      | C#          |         74 |          0 |          9 |         83 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs                 | C#          |         35 |          0 |          6 |         41 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs         | C#          |         15 |          3 |          4 |         22 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs          | C#          |         15 |          3 |          3 |         21 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshAssetManager.cs                         | C#          |        267 |         12 |         56 |        335 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef                 | JSON        |         16 |          0 |          0 |         16 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs                 | C#          |        226 |          8 |         43 |        277 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshLinkEditor.cs                           | C#          |        224 |          1 |         55 |        280 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshModifierEditor.cs                       | C#          |         35 |          0 |         12 |         47 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs                | C#          |        167 |          4 |         28 |        199 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs                 | C#          |        110 |          0 |         28 |        138 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs                        | C#          |        350 |          9 |         70 |        429 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Editor\RootSources2dEditor.cs                         | C#          |         29 |          0 |          8 |         37 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\AgentOverride2d.cs                            | C#          |         33 |          0 |          4 |         37 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\AgentRotate2d.cs                              | C#          |         13 |          0 |          3 |         16 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs                        | C#          |         14 |          0 |          3 |         17 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\CollectSources2d.cs                           | C#          |         83 |          0 |          8 |         91 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\CollectSourcesCache2d.cs                      | C#          |        105 |          0 |         11 |        116 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\CollectTilemapSourcesCache2d.cs               | C#          |         86 |          0 |         10 |         96 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs                      | C#          |          8 |          3 |          2 |         13 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs                       | C#          |          8 |          4 |          2 |         14 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshBuilder2d.cs                           | C#          |        355 |          6 |         38 |        399 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshBuilderState.cs                        | C#          |         86 |         10 |         13 |        109 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshComponents.asmdef                      | JSON        |         20 |          0 |          0 |         20 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshExtension.cs                           | C#          |         56 |          0 |          3 |         59 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs                  | C#          |         51 |          0 |          7 |         58 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshLink.cs                                | C#          |        145 |          0 |         31 |        176 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshModifier.cs                            | C#          |         45 |          2 |         10 |         57 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs                     | C#          |         67 |          5 |         12 |         84 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshModifierVolume.cs                      | C#          |         45 |          2 |         10 |         57 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\NavMeshSurface.cs                             | C#          |        457 |         24 |         71 |        552 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\RootSources2d.cs                              | C#          |         28 |          0 |          5 |         33 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\RotateAgentInstantly.cs                       | C#          |         33 |          3 |          4 |         40 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\NavMeshComponents\Scripts\RotateAgentSmoothly.cs                        | C#          |         49 |          3 |          5 |         57 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\README.md                                                               | Markdown    |         53 |          0 |         18 |         71 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\Unity\README.md                                                         | Markdown    |         39 |          0 |         22 |         61 |
+| d:\u3d项目\Neko Big War\Packages\com.h8man.2d.navmeshplus\package.json                                                            | JSON        |         10 |          0 |          3 |         13 |
+| d:\u3d项目\Neko Big War\Packages\manifest.json                                                                                    | JSON        |         46 |          0 |          1 |         47 |
+| d:\u3d项目\Neko Big War\Packages\packages-lock.json                                                                               | JSON        |        528 |          0 |          1 |        529 |
+| d:\u3d项目\Neko Big War\PsdPlugin.csproj                                                                                          | XML         |      1,028 |          1 |          1 |      1,030 |
+| d:\u3d项目\Neko Big War\Unity.2D.Animation.Editor.csproj                                                                          | XML         |      1,189 |          1 |          1 |      1,191 |
+| d:\u3d项目\Neko Big War\Unity.2D.Animation.Runtime.csproj                                                                         | XML         |        978 |          1 |          1 |        980 |
+| d:\u3d项目\Neko Big War\Unity.2D.Common.Editor.csproj                                                                             | XML         |        991 |          1 |          1 |        993 |
+| d:\u3d项目\Neko Big War\Unity.2D.Common.Runtime.csproj                                                                            | XML         |        964 |          1 |          1 |        966 |
+| d:\u3d项目\Neko Big War\Unity.2D.IK.Editor.csproj                                                                                 | XML         |        996 |          1 |          1 |        998 |
+| d:\u3d项目\Neko Big War\Unity.2D.IK.Runtime.csproj                                                                                | XML         |        969 |          1 |          1 |        971 |
+| d:\u3d项目\Neko Big War\Unity.2D.Path.Editor.csproj                                                                               | XML         |      1,030 |          1 |          1 |      1,032 |
+| d:\u3d项目\Neko Big War\Unity.2D.PixelPerfect.Editor.csproj                                                                       | XML         |        986 |          1 |          1 |        988 |
+| d:\u3d项目\Neko Big War\Unity.2D.PixelPerfect.csproj                                                                              | XML         |        960 |          1 |          1 |        962 |
+| d:\u3d项目\Neko Big War\Unity.2D.Psdimporter.Editor.csproj                                                                        | XML         |      1,007 |          1 |          1 |      1,009 |
+| d:\u3d项目\Neko Big War\Unity.2D.Sprite.Editor.csproj                                                                             | XML         |      1,021 |          1 |          1 |      1,023 |
+| d:\u3d项目\Neko Big War\Unity.2D.SpriteShape.Editor.csproj                                                                        | XML         |      1,007 |          1 |          1 |      1,009 |
+| d:\u3d项目\Neko Big War\Unity.2D.SpriteShape.Runtime.csproj                                                                       | XML         |        976 |          1 |          1 |        978 |
+| d:\u3d项目\Neko Big War\Unity.2D.Tilemap.Editor.csproj                                                                            | XML         |      1,029 |          1 |          1 |      1,031 |
+| d:\u3d项目\Neko Big War\Unity.2D.Tilemap.Extras.Editor.csproj                                                                     | XML         |        996 |          1 |          1 |        998 |
+| d:\u3d项目\Neko Big War\Unity.2D.Tilemap.Extras.csproj                                                                            | XML         |        963 |          1 |          1 |        965 |
+| d:\u3d项目\Neko Big War\Unity.Burst.CodeGen.csproj                                                                                | XML         |        936 |          1 |          1 |        938 |
+| d:\u3d项目\Neko Big War\Unity.Burst.Editor.csproj                                                                                 | XML         |        995 |          1 |          1 |        997 |
+| d:\u3d项目\Neko Big War\Unity.Burst.csproj                                                                                        | XML         |      1,008 |          1 |          1 |      1,010 |
+| d:\u3d项目\Neko Big War\Unity.CollabProxy.Editor.csproj                                                                           | XML         |      1,127 |          1 |          1 |      1,129 |
+| d:\u3d项目\Neko Big War\Unity.InternalAPIEditorBridge.001.csproj                                                                  | XML         |        986 |          1 |          1 |        988 |
+| d:\u3d项目\Neko Big War\Unity.InternalAPIEngineBridge.001.csproj                                                                  | XML         |        958 |          1 |          1 |        960 |
+| d:\u3d项目\Neko Big War\Unity.Mathematics.Editor.csproj                                                                           | XML         |        987 |          1 |          1 |        989 |
+| d:\u3d项目\Neko Big War\Unity.Mathematics.csproj                                                                                  | XML         |      1,045 |          1 |          1 |      1,047 |
+| d:\u3d项目\Neko Big War\Unity.PlasticSCM.Editor.csproj                                                                            | XML         |      1,244 |          1 |          1 |      1,246 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipeline.Universal.ShaderLibrary.csproj                                                       | XML         |      1,001 |          1 |          1 |      1,003 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Core.Editor.csproj                                                                  | XML         |      1,115 |          1 |          1 |      1,117 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Core.Runtime.csproj                                                                 | XML         |      1,101 |          1 |          1 |      1,103 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Core.ShaderLibrary.csproj                                                           | XML         |      1,008 |          1 |          1 |      1,010 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj                                               | XML         |        967 |          1 |          1 |        969 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Universal.Editor.csproj                                                             | XML         |      1,256 |          1 |          1 |      1,258 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Universal.Runtime.csproj                                                            | XML         |      1,125 |          1 |          1 |      1,127 |
+| d:\u3d项目\Neko Big War\Unity.RenderPipelines.Universal.Shaders.csproj                                                            | XML         |      1,083 |          1 |          1 |      1,085 |
+| d:\u3d项目\Neko Big War\Unity.Rider.Editor.csproj                                                                                 | XML         |        951 |          1 |          1 |        953 |
+| d:\u3d项目\Neko Big War\Unity.Searcher.Editor.csproj                                                                              | XML         |        995 |          1 |          1 |        997 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Analytics.csproj                                                                      | XML         |        959 |          1 |          1 |        961 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Configuration.Editor.csproj                                                           | XML         |        990 |          1 |          1 |        992 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Configuration.csproj                                                                  | XML         |        969 |          1 |          1 |        971 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Device.csproj                                                                         | XML         |        964 |          1 |          1 |        966 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Editor.csproj                                                                         | XML         |      1,064 |          1 |          1 |      1,066 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Environments.Internal.csproj                                                          | XML         |        959 |          1 |          1 |        961 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Environments.csproj                                                                   | XML         |        960 |          1 |          1 |        962 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Internal.csproj                                                                       | XML         |      1,020 |          1 |          1 |      1,022 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Networking.csproj                                                                     | XML         |        961 |          1 |          1 |        963 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Registration.csproj                                                                   | XML         |        967 |          1 |          1 |        969 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Scheduler.csproj                                                                      | XML         |        963 |          1 |          1 |        965 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Telemetry.csproj                                                                      | XML         |        992 |          1 |          1 |        994 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.Threading.csproj                                                                      | XML         |        960 |          1 |          1 |        962 |
+| d:\u3d项目\Neko Big War\Unity.Services.Core.csproj                                                                                | XML         |        967 |          1 |          1 |        969 |
+| d:\u3d项目\Neko Big War\Unity.ShaderGraph.Editor.csproj                                                                           | XML         |      1,744 |          1 |          1 |      1,746 |
+| d:\u3d项目\Neko Big War\Unity.ShaderGraph.Utilities.csproj                                                                        | XML         |        986 |          1 |          1 |        988 |
+| d:\u3d项目\Neko Big War\Unity.TextMeshPro.Editor.csproj                                                                           | XML         |      1,031 |          1 |          1 |      1,033 |
+| d:\u3d项目\Neko Big War\Unity.TextMeshPro.csproj                                                                                  | XML         |      1,015 |          1 |          1 |      1,017 |
+| d:\u3d项目\Neko Big War\Unity.Timeline.Editor.csproj                                                                              | XML         |      1,255 |          1 |          1 |      1,257 |
+| d:\u3d项目\Neko Big War\Unity.Timeline.csproj                                                                                     | XML         |      1,029 |          1 |          1 |      1,031 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.Core.Editor.csproj                                                                  | XML         |      1,455 |          1 |          1 |      1,457 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.Core.csproj                                                                         | XML         |      1,382 |          1 |          1 |      1,384 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.Flow.Editor.csproj                                                                  | XML         |      1,152 |          1 |          1 |      1,154 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.Flow.csproj                                                                         | XML         |      1,359 |          1 |          1 |      1,361 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.SettingsProvider.Editor.csproj                                                      | XML         |        996 |          1 |          1 |        998 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.Shared.Editor.csproj                                                                | XML         |        989 |          1 |          1 |        991 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.State.Editor.csproj                                                                 | XML         |      1,055 |          1 |          1 |      1,057 |
+| d:\u3d项目\Neko Big War\Unity.VisualScripting.State.csproj                                                                        | XML         |        989 |          1 |          1 |        991 |
+| d:\u3d项目\Neko Big War\Unity.VisualStudio.Editor.csproj                                                                          | XML         |        966 |          1 |          1 |        968 |
+| d:\u3d项目\Neko Big War\UnityEditor.TestRunner.csproj                                                                             | XML         |      1,074 |          1 |          1 |      1,076 |
+| d:\u3d项目\Neko Big War\UnityEditor.UI.csproj                                                                                     | XML         |      1,018 |          1 |          1 |      1,020 |
+| d:\u3d项目\Neko Big War\UnityEngine.TestRunner.csproj                                                                             | XML         |        999 |          1 |          1 |      1,001 |
+| d:\u3d项目\Neko Big War\UnityEngine.UI.csproj                                                                                     | XML         |      1,041 |          1 |          1 |      1,043 |
+| d:\u3d项目\Neko Big War\com.unity.cinemachine.editor.csproj                                                                       | XML         |      1,058 |          1 |          1 |      1,060 |
+| Total                                                                                                                           |             |    111,694 |        894 |      1,729 |    114,317 |
++---------------------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+

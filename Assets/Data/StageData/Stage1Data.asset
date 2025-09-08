@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5b9df6e02d11e41b12a9890f9a22f4, type: 3}
+  m_Name: Stage1Data
+  m_EditorClassIdentifier: 
+  mode: 0
+  ALLY_DIES: 1000
+  TIME: 600
+  ENEMY_BASE: 1000
+  ALLY_BASE: 1
+  ENEMY_DIES: 50
+  PLAYER_DIES: 1
+  ALLY_SCORE: 10000
+  ENEMY_SCORE: 10000
+  TimeNodes:
+  - 2
+  - 20
+  - 40
+  - 60
+  - 90
+  Waves:
+  - Enemys: 6500000066000000
+    Locations:
+    - {fileID: 8562052322407492862, guid: fdcd8f89a02919c479848aa1d35e8746, type: 3}
+    - {fileID: 4932514837949537960, guid: 09916011c299779418d2cbbe57703083, type: 3}
+    Nums: 0300000004000000
+  - Enemys: 6700000068000000
+    Locations:
+    - {fileID: 470683410470275781, guid: 410887df5095bd14aa3e418a7b4ed05d, type: 3}
+    - {fileID: 8562052322407492862, guid: fdcd8f89a02919c479848aa1d35e8746, type: 3}
+    Nums: 0100000002000000
+  - Enemys: 6700000068000000
+    Locations:
+    - {fileID: 7783787498148366604, guid: e6ee1e9d1f0dcbf4d9d038c238f37135, type: 3}
+    - {fileID: 4932514837949537960, guid: 09916011c299779418d2cbbe57703083, type: 3}
+    Nums: 0100000002000000
+  - Enemys: 6700000068000000
+    Locations:
+    - {fileID: 470683410470275781, guid: 410887df5095bd14aa3e418a7b4ed05d, type: 3}
+    - {fileID: 4932514837949537960, guid: 09916011c299779418d2cbbe57703083, type: 3}
+    Nums: 0100000002000000
+  - Enemys: 6700000068000000
+    Locations:
+    - {fileID: 8562052322407492862, guid: fdcd8f89a02919c479848aa1d35e8746, type: 3}
+    - {fileID: 470683410470275781, guid: 410887df5095bd14aa3e418a7b4ed05d, type: 3}
+    Nums: 0100000002000000

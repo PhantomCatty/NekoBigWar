@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618da33209c736d40bdea26f3140707c, type: 3}
+  m_Name: Hound
+  m_EditorClassIdentifier: 
+  weaponType: 3
+  bulletSpeed: 20
+  damage: 10
+  mDamage: 0
+  pierceNum: 1
+  fireInterval: 1
+  bulletType: 3
+  magazing: 1
+  reloadTime: 1
+  targetType: 38
+  armorPierce: 0
+  mArmorPierce: 0
+  maxHP: 560
+  moveSpeed: 1.6
+  range: 3
+  detectRange: 100
+  armor: 10
+  mArmor: 0
+  followPrefer1: 2
+  entityType: 0
+  followPreferDefault: 2
+  RewardExperience: 15
+  RewardCost: 0
