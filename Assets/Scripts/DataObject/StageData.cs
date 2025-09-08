@@ -14,6 +14,8 @@ public class StageData : ScriptableObject
     public float PLAYER_DIES;
     public float ALLY_SCORE;
     public float ENEMY_SCORE;
+    public float INITIAL_COST;
+    public float COST_SPEED;
 
     public List<float> TimeNodes;
     public List<WaveItem> Waves; 

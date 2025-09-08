@@ -11,26 +11,28 @@ using UnityEngine.Events;
 public class InGameData : MonoBehaviour
 {
     public static InGameData instance;
-    
-    public int initialCost;
+
+    public float initialCost;
     public float costSpeed;
     public float curCost;
     public float curExperience;
     public float totalExperience;
     public float levelExperience;
     public float remainingExperience;
-    public float curLevel;
+    public int curLevel;
+    public int curCoin;
     public GameMode gameMode;
     public int kills;
     public int totalEnemyNum;
     public int totalAgentDies;
     public GameWinCondition winCondition;
     public StageData stageData;
+    public LevelData levelData;
 
     public float totalDamage;
     public int[] agentKills;
     public int[] agentDies;
-    public float[] agentDamage; 
+    public float[] agentDamage;
 
     private float costRefreshTimer;
     public float gameTimer;
@@ -44,6 +46,9 @@ public class InGameData : MonoBehaviour
 
     public UnityEvent<float> CostEvent;
     public UnityEvent<int> KillsEvent;
+    public UnityEvent ExperienceEvent;
+    public UnityEvent LevelEvent;
+    public UnityEvent CoinEvent;
 
     private void Awake()
     {
@@ -63,7 +68,12 @@ public class InGameData : MonoBehaviour
         agentSkillList = new AgentSkill[8];
         costRefreshTimer = 0f;
         gameTimer = 0f;
+        curLevel = 1;
+        curExperience = 0f;
+        costSpeed = stageData.COST_SPEED;
+        
         int i = 1;
+        levelExperience = levelData.LevelExperience[curLevel - 1];
         while (true)
         {
             GameObject temp = GameObject.Find("Base" + i);
@@ -77,16 +87,15 @@ public class InGameData : MonoBehaviour
             if (temp == null) break;
             else allyBaseList.Add(temp);
         }
-        curCost = initialCost;
+        curCost = initialCost = stageData.INITIAL_COST;
         winCondition = new GameWinCondition(stageData);
         winCondition.mode = gameMode;
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (costRefreshTimer < 0.3f) costRefreshTimer += Time.deltaTime;
+        if (costRefreshTimer < 0.1f) costRefreshTimer += Time.deltaTime;
         else
         {
             costRefreshTimer = 0f;
@@ -113,6 +122,40 @@ public class InGameData : MonoBehaviour
         kills++;
         KillsEvent.Invoke(kills);
         winCondition.minusCondition(GameCondition.ENEMY_DIES, 1);
+    }
+
+    public void addExperience(float exp)
+    {
+        curExperience += exp;
+        remainingExperience = levelExperience - curExperience;
+        ExperienceEvent.Invoke();
+    }
+
+    public void addCoin(int coin)
+    {
+        curCoin += coin;
+        CoinEvent.Invoke();
+    }
+
+    //handle level up
+    public void checkLevelUp()
+    {
+        if (curExperience >= levelExperience)
+        {
+            curCoin += levelData.LevelRewardCoin[curLevel - 1];
+            CoinEvent.Invoke();
+
+            curExperience -= levelExperience;
+            curLevel++;
+            LevelEvent.Invoke();
+            levelExperience = levelData.LevelExperience[curLevel - 1];
+            remainingExperience = levelExperience - curExperience;
+            ExperienceEvent.Invoke();
+
+            //shop
+            InGameController.instance.shuffleShop();
+            InGameController.instance.showShop();
+        }
     }
 }
 

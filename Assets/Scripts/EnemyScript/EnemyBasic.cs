@@ -15,6 +15,8 @@ public class EnemyBasic : WeaponBasic
     public float detectRange;
     public float armor;
     public float mArmor;
+    public float rewardCost;
+    public float rewardExperience;
     public TargetType followPrefer1;
     public EntityType entityType;
     public TargetType followPreferDefault;
@@ -54,6 +56,9 @@ public class EnemyBasic : WeaponBasic
         armor = enemyData.armor;
         mArmor = enemyData.mArmor;
         entityType = enemyData.entityType;
+
+        rewardCost = enemyData.RewardCost;
+        rewardExperience = enemyData.RewardExperience;
         setWeapon();
     }
 

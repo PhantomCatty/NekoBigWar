@@ -8,7 +8,7 @@ public class LevelData : ScriptableObject
 {
     public int maxLevel;
     public List<float> LevelExperience;
-    public List<float> LevelRewardCoin;
+    public List<int> LevelRewardCoin;
     public List<LevelItemPool> levelItemPools;
     public List<int> ItemPoolLevelRequirement;
 }

@@ -238,6 +238,10 @@ public class EnemyController : BaseAnimEventController
             }
             // 死亡动画播放完毕后再回收对象
             // 回收逻辑移到OnDeathAnimationEnd()
+
+            //trigger cost and exp addon
+            InGameData.instance.addExperience(enemyBasic.rewardExperience);
+            InGameData.instance.addCost(enemyBasic.rewardCost);
         }
         if (currentHP > enemyBasic.maxHP) currentHP = enemyBasic.maxHP;
         if (gameObject)
@@ -252,6 +256,7 @@ public class EnemyController : BaseAnimEventController
         ObjectPool.instance.pushObject(transform.parent.gameObject, enemyBasic.entityType);
         EnemySpawnController.curAmount--;
         InGameData.instance.addKills();
+        
     }
 
     /// <summary>

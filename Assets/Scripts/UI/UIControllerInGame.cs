@@ -15,8 +15,10 @@ public class UIControllerInGame : MonoBehaviour
 
     public Image HPBar;
     public Image AmmoBar;
-    public Image FrontSight;//���㼼�ܵ�׼��
-    public Image AimArea;//��Χ���ܵķ�Χָʾ��
+    public Image FrontSight;
+    public Image AimArea;
+    public Image ExperienceBar;
+    public TextMeshProUGUI LevelLabel;
     public TextMeshProUGUI CostLabel;
     public TextMeshProUGUI KillsLabel;
     //����д�϶�������,�����ɰ�scriptableObject�Ź���,
@@ -52,6 +54,8 @@ public class UIControllerInGame : MonoBehaviour
         isUsingSkill = false;
         HPBar.fillAmount = 1;
         AmmoBar.fillAmount = 1;
+        ExperienceBar.fillAmount = 0;
+        LevelLabel.text = "Lv.1";
         for (int i = 0; i < 8; i++)
         {
             agentSpriteList.Add(Instantiate(agentList[i].transform.GetChild(1).gameObject));
@@ -111,14 +115,26 @@ public class UIControllerInGame : MonoBehaviour
         AmmoBar.fillAmount = curAmmo / maxAmmo;
     }
 
-    public void setCostLabel(float cost)
+    public void setCostLabel()
     {
-        CostLabel.text = "Cost: "+Mathf.Floor(cost);
+        //Debug.Log("Cost: " + Mathf.Floor(InGameData.instance.curCost));
+        CostLabel.text = "Cost: " + Mathf.Floor(InGameData.instance.curCost);
     }
 
     public void setKillsLabel(int kills)
     {
         //KillsLabel.text = "Kills: " + kills;
+    }
+
+    public void setExperienceBar()
+    {
+        //Debug.Log("Experience: " + InGameData.instance.curExperience + "/" + InGameData.instance.levelExperience);
+        ExperienceBar.fillAmount = InGameData.instance.curExperience / InGameData.instance.levelExperience;
+    }
+
+    public void setLevelLabel()
+    {
+        LevelLabel.text = "Lv."+InGameData.instance.curLevel;
     }
 
     /// <summary>
@@ -185,20 +201,20 @@ public class UIControllerInGame : MonoBehaviour
             InGameController.instance.Slow();
             curIndex = index;
             FrontSight.gameObject.SetActive(true);
-            if (curSkill.compareExertType(SkillExertType.SELF)) return ;//SELF״̬�²�ʹ�������
-            else if (curSkill.compareExertType(SkillExertType.POSITION)) 
+            if (curSkill.compareExertType(SkillExertType.SELF)) return;//SELF״̬�²�ʹ�������
+            else if (curSkill.compareExertType(SkillExertType.POSITION))
             {
                 //POSITIONģʽ��,����ʹ��ָʾ��,����ָʾ��������������׼��Χ�ڵĵ�λ(����,��������⵽�ĵ�λ),�����������������ܵĲ���
                 AimArea.gameObject.SetActive(true);
                 AimArea.transform.localScale = new Vector3(curSkill.skillBasic.areaRadius, curSkill.skillBasic.areaRadius, 1);
                 SkillAimDetector.gameObject.SetActive(true);
-                if(curSkill.skillBasic.areaRadius==0f) SkillAimDetector.gameObject.SetActive(false);
+                if (curSkill.skillBasic.areaRadius == 0f) SkillAimDetector.gameObject.SetActive(false);
                 else SkillAimDetector.GetComponent<CircleCollider2D>().radius = curSkill.skillBasic.areaRadius;
 
                 if ((curSkill.skillBasic.effectType & SkillEffectType.ALLY) == SkillEffectType.ALLY) SkillAimDetector.targetType |= TargetType.ALLY;
-                if ( (curSkill.skillBasic.effectType & SkillEffectType.ENEMY) == SkillEffectType.ENEMY) SkillAimDetector.targetType |= TargetType.ENEMY;
-                if ( (curSkill.skillBasic.effectType & SkillEffectType.ENEMY_FORTIFICATION) == SkillEffectType.ENEMY_FORTIFICATION) SkillAimDetector.targetType |= TargetType.ENEMY_FORTIFICATION;
-                if ( (curSkill.skillBasic.effectType & SkillEffectType.ALLY_FORTIFICATION) == SkillEffectType.ALLY_FORTIFICATION) SkillAimDetector.targetType |= TargetType.ALLY_FORTIFICATION;
+                if ((curSkill.skillBasic.effectType & SkillEffectType.ENEMY) == SkillEffectType.ENEMY) SkillAimDetector.targetType |= TargetType.ENEMY;
+                if ((curSkill.skillBasic.effectType & SkillEffectType.ENEMY_FORTIFICATION) == SkillEffectType.ENEMY_FORTIFICATION) SkillAimDetector.targetType |= TargetType.ENEMY_FORTIFICATION;
+                if ((curSkill.skillBasic.effectType & SkillEffectType.ALLY_FORTIFICATION) == SkillEffectType.ALLY_FORTIFICATION) SkillAimDetector.targetType |= TargetType.ALLY_FORTIFICATION;
                 SkillAimDetector.targetInEvent.AddListener(inAction);
                 SkillAimDetector.targetOutEvent.AddListener(outAction);
                 //���Ƿ�Χ����,��ʹ��ָʾ��,����ʾ��ΧUI
