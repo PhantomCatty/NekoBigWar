@@ -16,24 +16,48 @@ MonoBehaviour:
   LevelExperience:
   - 100
   - 150
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  LevelRewardCoin: []
-  levelItemPools: []
-  ItemPoolLevelRequirement: 
+  - 200
+  - 250
+  - 300
+  - 350
+  - 400
+  - 450
+  - 500
+  - 550
+  - 600
+  - 650
+  - 700
+  - 750
+  - 800
+  - 850
+  - 900
+  - 950
+  - 1000
+  - 100000
+  LevelRewardCoin:
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 6
+  - 6
+  - 6
+  - 7
+  - 7
+  - 7
+  - 7
+  - 8
+  - 8
+  - 8
+  - 9
+  - 9
+  - 9
+  - 10
+  - 10
+  levelItemPools:
+  - items: []
+    weights: []
+  - items: []
+    weights: []
+  ItemPoolLevelRequirement: 0000000008000000
