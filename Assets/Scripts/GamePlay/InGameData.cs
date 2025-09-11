@@ -28,6 +28,7 @@ public class InGameData : MonoBehaviour
     public GameWinCondition winCondition;
     public StageData stageData;
     public LevelData levelData;
+    public List<ItemBasic> ownedItems;
 
     public float totalDamage;
     public int[] agentKills;
@@ -71,6 +72,7 @@ public class InGameData : MonoBehaviour
         curLevel = 1;
         curExperience = 0f;
         costSpeed = stageData.COST_SPEED;
+        curCoin = 0;
         
         int i = 1;
         levelExperience = levelData.LevelExperience[curLevel - 1];
@@ -142,8 +144,7 @@ public class InGameData : MonoBehaviour
     {
         if (curExperience >= levelExperience)
         {
-            curCoin += levelData.LevelRewardCoin[curLevel - 1];
-            CoinEvent.Invoke();
+            addCoin(levelData.LevelRewardCoin[curLevel - 1]);
 
             curExperience -= levelExperience;
             curLevel++;
@@ -154,6 +155,7 @@ public class InGameData : MonoBehaviour
 
             //shop
             InGameController.instance.shuffleShop();
+            InGameController.instance.loadAgent();
             InGameController.instance.showShop();
         }
     }

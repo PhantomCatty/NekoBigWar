@@ -34,30 +34,38 @@ MonoBehaviour:
   - 950
   - 1000
   - 100000
-  LevelRewardCoin:
-  - 5
-  - 5
-  - 5
-  - 5
-  - 5
-  - 6
-  - 6
-  - 6
-  - 7
-  - 7
-  - 7
-  - 7
-  - 8
-  - 8
-  - 8
-  - 9
-  - 9
-  - 9
-  - 10
-  - 10
+  LevelRewardCoin: 0500000005000000050000000500000005000000060000000600000006000000070000000700000007000000070000000800000008000000080000000900000009000000090000000a0000000a000000
   levelItemPools:
-  - items: []
-    weights: []
-  - items: []
-    weights: []
+  - items:
+    - {fileID: 5163920139505452767, guid: a65a62bd77d315a4fb9465cbc208a183, type: 3}
+    - {fileID: 1831213805500189278, guid: 41234e7cf2be4a34b881aaa6c08c189b, type: 3}
+    - {fileID: -966976463143490141, guid: 9e1034090a49e824cbfdcde0e000d608, type: 3}
+    - {fileID: 6905907568860688433, guid: 7c2e07959ccb0f043b10782a6eead993, type: 3}
+    - {fileID: -4719664783372750433, guid: 6398e09c18d26ad4bb4b671458ebcde9, type: 3}
+    weights:
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+  - items:
+    - {fileID: -966976463143490141, guid: 9e1034090a49e824cbfdcde0e000d608, type: 3}
+    - {fileID: 6905907568860688433, guid: 7c2e07959ccb0f043b10782a6eead993, type: 3}
+    - {fileID: -4719664783372750433, guid: 6398e09c18d26ad4bb4b671458ebcde9, type: 3}
+    - {fileID: 1914686084066157489, guid: 21eb78ab67c56054f8c8c90fbfceba56, type: 3}
+    - {fileID: 5163920139505452767, guid: a65a62bd77d315a4fb9465cbc208a183, type: 3}
+    - {fileID: -367461001774452295, guid: b06b795d46f2ab746a4b3aea2bd7a160, type: 3}
+    - {fileID: -1665379931006584234, guid: 83675e9660411ee49b7c15f6ef4336cc, type: 3}
+    - {fileID: 1831213805500189278, guid: 41234e7cf2be4a34b881aaa6c08c189b, type: 3}
+    - {fileID: -8984865279688957885, guid: 64e0a098b33e71e4a9758e6906638515, type: 3}
+    weights:
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
   ItemPoolLevelRequirement: 0000000008000000

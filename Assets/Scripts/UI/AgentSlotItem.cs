@@ -7,7 +7,7 @@ using UnityEngine.UI;
 /// SlotItem defines what state the slot is in and what should it do
 /// that is, the class includes some function and procedure to deal with simple tasks 
 /// </summary>
-public class SlotItem : MonoBehaviour
+public class AgentSlotItem : MonoBehaviour
 {
     public int slotIndex;
     public SlotStatus slotStatus;
@@ -63,27 +63,27 @@ public class SlotItem : MonoBehaviour
     public void setSlotStatus(SlotStatus status)
     {
         slotStatus = status;
-        if (status == SlotStatus.AGENT_CD)//¸ÉÔ±ÏÂ³¡,½øÈë¸´»îCD,ÇÐ»»µ½Ô¤ÖÆÌåÒýÓÃ,ÇÐ»»Í¼Æ¬
+        if (status == SlotStatus.AGENT_CD)//ï¿½ï¿½Ô±ï¿½Â³ï¿½,ï¿½ï¿½ï¿½ë¸´ï¿½ï¿½CD,ï¿½Ð»ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½Ð»ï¿½Í¼Æ¬
         {
             curObj = agentInstance.GetComponentInChildren<AgentController>();
             iconImage.sprite = curObj.agentBasic.agentIcon;
             timer = CDTime = curObj.agentBasic.respawnTime;
             maskImage.fillAmount = 1;
         }
-        else if (status == SlotStatus.SKILL_CD) {//¸ÉÔ±ÊÍ·Å¼¼ÄÜ,²ÛÎ»ÇÐ»»ÎªSKILL_CD
+        else if (status == SlotStatus.SKILL_CD) {//ï¿½ï¿½Ô±ï¿½Í·Å¼ï¿½ï¿½ï¿½,ï¿½ï¿½Î»ï¿½Ð»ï¿½ÎªSKILL_CD
 
             CDTime = curObj.agentBasic.skillCD;
             timer = CDTime = curObj.agentBasic.skillCD;
             maskImage.fillAmount = 1;
         }
-        else if (status == SlotStatus.SKILL)//¸ÉÔ±ÉÏ³¡»òÕßÀäÈ´Íê±Ï½øÈëSKILL,ÇÐ»»ÒýÓÃÎª³¡ÉÏ¸ÉÔ±,ÇÐ»»Í¼Æ¬
+        else if (status == SlotStatus.SKILL)//ï¿½ï¿½Ô±ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½Ï½ï¿½ï¿½ï¿½SKILL,ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ï¸ï¿½Ô±,ï¿½Ð»ï¿½Í¼Æ¬
         {
             curObj=InGameData.instance.agentList[slotIndex].GetComponentInChildren<AgentController>();
             iconImage.sprite = curObj.agentBasic.skillIcon;
         }
-        //¸´»îcd½áÊø½øÈëAgent×´Ì¬,ÎÞ±ä»¯
+        //ï¿½ï¿½ï¿½ï¿½cdï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Agent×´Ì¬,ï¿½Þ±ä»¯
 
-        //Disable,ÉèÖÃ°´Å¥Îªdisable,Ò»°ãÀ´Ëµ²»»áÓÃµ½
+        //Disable,ï¿½ï¿½ï¿½Ã°ï¿½Å¥Îªdisable,Ò»ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½
     }
 
     public void onCostChanged(float cost)

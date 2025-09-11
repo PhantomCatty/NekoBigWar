@@ -78,7 +78,7 @@ public class InGameController : MonoBehaviour
 
     /*
         shop method
-        when upgraded, implete both shuffle shop and show shop.
+        when upgraded, implete both shuffle shop and show shop and load agent.
         these two logic is separated.
     */
     public void shuffleShop()
@@ -148,8 +148,19 @@ public class InGameController : MonoBehaviour
         UIControllerShop.instance.ItemList = selectedItems;
     }
 
+    public void loadAgent()
+    {
+        List<AgentBasic> unlockedAgents = new List<AgentBasic>();
+        foreach (var agent in UIControllerInGame.instance.agentList)
+        {
+            unlockedAgents.Add(agent.GetComponentInChildren<AgentBasic>());
+        }
+        UIControllerShop.instance.AgentList = new List<AgentBasic>(unlockedAgents);
+    }
+
     public void showShop()
     {
+        Time.timeScale = 0f;
         UIControllerShop.instance.gameObject.SetActive(true);
     }
 }

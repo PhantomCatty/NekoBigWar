@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64362781dfdd0cf4b98048f7bc44f89b, type: 3}
+  m_Name: Cost Drainer
+  m_EditorClassIdentifier: 
+  itemName: Cost Drainer
+  description: "\u6301\u6709\u8005\u53EF\u4EE5\u4ECE\u6BCF\u4E00\u4E2A\u88AB\u51FB\u8D25\u7684\u654C\u4EBA\u8EAB\u4E0A\u6C72\u53D61\u70B9Cost"
+  icon: {fileID: 21300000, guid: b8f7be3769cdd94498c72a3cc1555c6f, type: 3}
+  price: 3
+  itemType: 2

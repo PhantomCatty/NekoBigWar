@@ -1,0 +1,107 @@
+"filename", "language", "C#", "JSON", "UnityShader", "XML", "comment", "blank", "total"
+"d:\u3d项目\Neko Big War\Assets\DOTween\DOTween.XML", "XML", 0, 0, 0, 3077, 0, 1, 3078
+"d:\u3d项目\Neko Big War\Assets\DOTween\Editor\DOTweenEditor.XML", "XML", 0, 0, 0, 144, 0, 1, 145
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleAudio.cs", "C#", 94, 0, 0, 0, 80, 25, 199
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs", "C#", 109, 0, 0, 0, 18, 20, 147
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModulePhysics.cs", "C#", 137, 0, 0, 0, 60, 20, 217
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModulePhysics2D.cs", "C#", 125, 0, 0, 0, 51, 18, 194
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleSprite.cs", "C#", 63, 0, 0, 0, 17, 14, 94
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUI.cs", "C#", 390, 0, 0, 0, 203, 70, 663
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs", "C#", 254, 0, 0, 0, 99, 37, 390
+"d:\u3d项目\Neko Big War\Assets\DOTween\Modules\DOTweenModuleUtils.cs", "C#", 123, 0, 0, 0, 27, 18, 168
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentAimDetector.cs", "C#", 273, 0, 0, 0, 13, 18, 304
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentBasic.cs", "C#", 134, 0, 0, 0, 12, 11, 157
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentController.cs", "C#", 569, 0, 0, 0, 59, 46, 674
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentSkill.cs", "C#", 30, 0, 0, 0, 30, 8, 68
+"d:\u3d项目\Neko Big War\Assets\Scripts\Application\ApplicationFacade.cs", "C#", 7, 0, 0, 0, 17, 1, 25
+"d:\u3d项目\Neko Big War\Assets\Scripts\Application\GameEntry.cs", "C#", 10, 0, 0, 0, 0, 3, 13
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\AgentData.cs", "C#", 60, 0, 0, 0, 0, 3, 63
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\EnemyData.cs", "C#", 18, 0, 0, 0, 0, 2, 20
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\FortificationData.cs", "C#", 13, 0, 0, 0, 0, 2, 15
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\ItemData.cs", "C#", 21, 0, 0, 0, 6, 4, 31
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\LevelData.cs", "C#", 19, 0, 0, 0, 0, 2, 21
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\ObjectPoolData.cs", "C#", 23, 0, 0, 0, 0, 1, 24
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\StageData.cs", "C#", 20, 0, 0, 0, 0, 2, 22
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\WeaponData.cs", "C#", 43, 0, 0, 0, 0, 2, 45
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyAimDetector.cs", "C#", 450, 0, 0, 0, 85, 22, 557
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyBasic.cs", "C#", 100, 0, 0, 0, 6, 9, 115
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyController.cs", "C#", 217, 0, 0, 0, 40, 26, 283
+"d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\BaseBasic.cs", "C#", 66, 0, 0, 0, 6, 8, 80
+"d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\BaseController.cs", "C#", 65, 0, 0, 0, 6, 7, 78
+"d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\FortificationBasic.cs", "C#", 60, 0, 0, 0, 5, 6, 71
+"d:\u3d项目\Neko Big War\Assets\Scripts\FortificationScript\FortificationController.cs", "C#", 89, 0, 0, 0, 3, 11, 103
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\BuffCalculator.cs", "C#", 191, 0, 0, 0, 20, 17, 228
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\CameraController2D.cs", "C#", 115, 0, 0, 0, 10, 26, 151
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\EnemySpawnController.cs", "C#", 61, 0, 0, 0, 2, 9, 72
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\InGameController.cs", "C#", 102, 0, 0, 0, 29, 24, 155
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\InGameData.cs", "C#", 309, 0, 0, 0, 20, 28, 357
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\SelectionManager.cs", "C#", 136, 0, 0, 0, 2, 13, 151
+"d:\u3d项目\Neko Big War\Assets\Scripts\HQScript\HQBasic.cs", "C#", 12, 0, 0, 0, 2, 5, 19
+"d:\u3d项目\Neko Big War\Assets\Scripts\HQScript\HQController.cs", "C#", 12, 0, 0, 0, 2, 5, 19
+"d:\u3d项目\Neko Big War\Assets\Scripts\ItemScript\ItemBasic.cs", "C#", 20, 0, 0, 0, 1, 4, 25
+"d:\u3d项目\Neko Big War\Assets\Scripts\NekoScript\NekoBasic.cs", "C#", 9, 0, 0, 0, 4, 3, 16
+"d:\u3d项目\Neko Big War\Assets\Scripts\NekoScript\NekoMove.cs", "C#", 108, 0, 0, 0, 13, 18, 139
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillBarrel.cs", "C#", 53, 0, 0, 0, 0, 5, 58
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillDelta.cs", "C#", 28, 0, 0, 0, 0, 3, 31
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillFletcher.cs", "C#", 18, 0, 0, 0, 0, 4, 22
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillHawk.cs", "C#", 39, 0, 0, 0, 0, 5, 44
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillNanic.cs", "C#", 23, 0, 0, 0, 0, 1, 24
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillSpectia.cs", "C#", 26, 0, 0, 0, 0, 3, 29
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillBarrel.cs", "C#", 39, 0, 0, 0, 0, 5, 44
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillDelta.cs", "C#", 35, 0, 0, 0, 0, 5, 40
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillFletcher.cs", "C#", 39, 0, 0, 0, 3, 5, 47
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillHawk.cs", "C#", 26, 0, 0, 0, 0, 4, 30
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillNanic.cs", "C#", 22, 0, 0, 0, 0, 4, 26
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillSpectia.cs", "C#", 22, 0, 0, 0, 0, 4, 26
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentSkills\ASkillVictor.cs", "C#", 35, 0, 0, 0, 1, 3, 39
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\FortificationPSkills\HQCannonPSkill.cs", "C#", 52, 0, 0, 0, 0, 6, 58
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\PassiveSkillBasic.cs", "C#", 57, 0, 0, 0, 6, 18, 81
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillBasic.cs", "C#", 88, 0, 0, 0, 11, 21, 120
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\PSkillEffectHawk.cs", "C#", 29, 0, 0, 0, 5, 4, 38
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\SkillEffectBasic.cs", "C#", 33, 0, 0, 0, 6, 8, 47
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\SkillEffectDetector.cs", "C#", 64, 0, 0, 0, 4, 3, 71
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\SkillEffectNanic.cs", "C#", 52, 0, 0, 0, 3, 9, 64
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\SkillEffectSpectia.cs", "C#", 55, 0, 0, 0, 11, 10, 76
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\SkillEffects\SkillEffectVictor.cs", "C#", 6, 0, 0, 0, 0, 2, 8
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\AgentShopItem.cs", "C#", 75, 0, 0, 0, 10, 10, 95
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\AgentSlotItem.cs", "C#", 107, 0, 0, 0, 8, 8, 123
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\DamageNum.cs", "C#", 40, 0, 0, 0, 1, 4, 45
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\DrawRange.cs", "C#", 29, 0, 0, 0, 8, 5, 42
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\FrontSight.cs", "C#", 10, 0, 0, 0, 1, 2, 13
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\HPBar.cs", "C#", 15, 0, 0, 0, 0, 2, 17
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\InfoCanvas.cs", "C#", 124, 0, 0, 0, 6, 16, 146
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\ItemShopItem.cs", "C#", 28, 0, 0, 0, 5, 8, 41
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerInGame.cs", "C#", 265, 0, 0, 0, 26, 23, 314
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerPause.cs", "C#", 21, 0, 0, 0, 1, 6, 28
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerShop.cs", "C#", 67, 0, 0, 0, 9, 11, 87
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\WaveController.cs", "C#", 62, 0, 0, 0, 13, 10, 85
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\AllBasic.cs", "C#", 9, 0, 0, 0, 0, 2, 11
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\AnimatorEventProxy.cs", "C#", 27, 0, 0, 0, 5, 6, 38
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\BaseAnimEventController.cs", "C#", 8, 0, 0, 0, 0, 1, 9
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\CommonTools.cs", "C#", 10, 0, 0, 0, 0, 2, 12
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\ConstV.cs", "C#", 8, 0, 0, 0, 0, 3, 11
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\NavmeshVisualizer.cs", "C#", 50, 0, 0, 0, 3, 8, 61
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\ObjectPool.cs", "C#", 146, 0, 0, 0, 160, 10, 316
+"d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\BulletBasic.cs", "C#", 103, 0, 0, 0, 26, 18, 147
+"d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\CommanderWeapon.cs", "C#", 62, 0, 0, 0, 5, 7, 74
+"d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\FireController.cs", "C#", 83, 0, 0, 0, 5, 12, 100
+"d:\u3d项目\Neko Big War\Assets\Scripts\WeaponScript\WeaponBasic.cs", "C#", 65, 0, 0, 0, 3, 8, 76
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader", "UnityShader", 0, 0, 109, 0, 2, 33, 144
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader", "UnityShader", 0, 0, 112, 0, 3, 31, 146
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader", "UnityShader", 0, 0, 109, 0, 2, 33, 144
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader", "UnityShader", 0, 0, 243, 0, 4, 71, 318
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader", "UnityShader", 0, 0, 241, 0, 4, 66, 311
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader", "UnityShader", 0, 0, 188, 0, 10, 50, 248
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader", "UnityShader", 0, 0, 183, 0, 8, 50, 241
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader", "UnityShader", 0, 0, 82, 0, 4, 21, 107
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader", "UnityShader", 0, 0, 183, 0, 8, 50, 241
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader", "UnityShader", 0, 0, 103, 0, 8, 28, 139
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader", "UnityShader", 0, 0, 122, 0, 4, 33, 159
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_SDF.shader", "UnityShader", 0, 0, 243, 0, 4, 71, 318
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader", "UnityShader", 0, 0, 97, 0, 0, 20, 117
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro.cginc", "UnityShader", 0, 0, 63, 0, 2, 20, 85
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc", "UnityShader", 0, 0, 122, 0, 2, 34, 158
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc", "UnityShader", 0, 0, 62, 0, 10, 14, 86
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc", "UnityShader", 0, 0, 76, 0, 7, 19, 102
+"d:\u3d项目\Neko Big War\Assets\TextMesh Pro\Sprites\EmojiOne.json", "JSON", 0, 155, 0, 0, 0, 2, 157
+"Total", "-", 6912, 155, 2338, 3221, 1375, 1530, 15531

@@ -11,13 +11,13 @@ public class FortificationBasic : BaseBasic
         calculator = GetComponent<BuffCalculator>();
         weaponType = fortiData.weaponType;
         bulletSpeed = fortiData.bulletSpeed;
-        damage = fortiData.damage;
-        mDamage = fortiData.mDamage;
+        damage = fortiData.damage[0];
+        mDamage = fortiData.mDamage[0];
         pierceNum = fortiData.pierceNum;
-        fireInterval = fortiData.fireInterval;
+        fireInterval = fortiData.fireInterval[0];
         bulletType = fortiData.bulletType;
         magazing = fortiData.magazing;
-        reloadTime = fortiData.reloadTime;
+        reloadTime = fortiData.reloadTime[0];
         targetType = fortiData.targetType;
 
         setWeapon();
@@ -34,8 +34,8 @@ public class FortificationBasic : BaseBasic
     ///重要的数据被set以后还会触发事件,重置所有的监听者
     public override void setDamage()
     {
-        damage = calculator.calculateFloat(fortiData.damage, new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
-        mDamage = calculator.calculateFloat(fortiData.mDamage, new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
+        damage = calculator.calculateFloat(fortiData.damage[0], new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
+        mDamage = calculator.calculateFloat(fortiData.mDamage[0], new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
         weaponBasic.damage = damage;
         weaponBasic.mDamage = mDamage;
         eventDamage.Invoke(damage);
@@ -48,18 +48,18 @@ public class FortificationBasic : BaseBasic
     }
     public override void setFireInterval()
     {
-        fireInterval = fortiData.fireInterval / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
+        fireInterval = fortiData.fireInterval[0] / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
         weaponBasic.fireInterval = fireInterval;
         //event.Invoke()?
     }
     public override void setArmorPierce()
     {
-        armorPierce = calculator.calculateFloat(fortiData.armorPierce, new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
+        armorPierce = calculator.calculateFloat(fortiData.armorPierce[0], new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
         weaponBasic.armorPierce = armorPierce;
     }
     public override void setReloadTime()
     {
-        reloadTime = calculator.calculateFloat(fortiData.reloadTime, new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
+        reloadTime = calculator.calculateFloat(fortiData.reloadTime[0], new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
         weaponBasic.reloadTime = reloadTime;
     }
     public override void setHP()

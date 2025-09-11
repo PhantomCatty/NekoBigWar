@@ -14,16 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 3
   bulletSpeed: 20
-  damage: 10
-  mDamage: 0
+  damage:
+  - 0
+  mDamage:
+  - 15
   pierceNum: 1
-  fireInterval: 1
+  fireInterval:
+  - 1
   bulletType: 3
   magazing: 1
-  reloadTime: 1
+  reloadTime:
+  - 0.5
   targetType: 38
-  armorPierce: 0
-  mArmorPierce: 0
+  armorPierce:
+  - 0
+  mArmorPierce:
+  - 0
   maxHP: 560
   moveSpeed: 1.6
   range: 3

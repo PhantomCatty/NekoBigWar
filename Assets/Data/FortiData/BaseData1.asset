@@ -14,16 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 0
   bulletSpeed: 0
-  damage: 0
-  mDamage: 0
+  damage:
+  - 0
+  mDamage:
+  - 0
   pierceNum: 0
-  fireInterval: 0
+  fireInterval:
+  - 0
   bulletType: 0
   magazing: 0
-  reloadTime: 0
+  reloadTime:
+  - 0
   targetType: 0
-  armorPierce: 0
-  mArmorPierce: 0
+  armorPierce:
+  - 0
+  mArmorPierce:
+  - 0
   maxHP: 3000
   range: 0
   detectRange: 0

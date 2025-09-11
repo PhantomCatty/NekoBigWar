@@ -21,6 +21,8 @@ MonoBehaviour:
   PLAYER_DIES: 1
   ALLY_SCORE: 10000
   ENEMY_SCORE: 10000
+  INITIAL_COST: 50
+  COST_SPEED: 1
   TimeNodes:
   - 2
   - 20

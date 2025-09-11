@@ -9,6 +9,8 @@ public class AgentBasic : WeaponBasic
     private BuffCalculator calculator;
 
     ///����
+    public int curLevel;
+    public int maxLevel;
     public float maxHP;
     public float moveSpeed;
     public AgentStatus agentStatus;
@@ -42,32 +44,34 @@ public class AgentBasic : WeaponBasic
     private void Awake()
     {
         calculator = GetComponent<BuffCalculator>();
+        curLevel = 1;
+        maxLevel = agentData.maxLevel;
         weaponType = agentData.weaponType;
         bulletSpeed = agentData.bulletSpeed;
-        damage = agentData.damage;
-        mDamage = agentData.mDamage;
+        damage = agentData.getDamage(curLevel);
+        mDamage = agentData.getMDamage(curLevel);
         pierceNum = agentData.pierceNum;
-        fireInterval = agentData.fireInterval;
+        fireInterval = agentData.getFireInterval(curLevel);
         bulletType = agentData.bulletType;
         magazing = agentData.magazing;
-        reloadTime = agentData.reloadTime;
+        reloadTime = agentData.getReloadTime(curLevel);
         targetType = agentData.targetType;
-        armorPierce = agentData.armorPierce;
-        mArmorPierce = agentData.mArmorPierce;
+        armorPierce = agentData.getArmorPierce(curLevel);
+        mArmorPierce = agentData.getMArmorPierce(curLevel);
 
-        maxHP = agentData.maxHP;
-        moveSpeed = agentData.moveSpeed;
+        maxHP = agentData.getMaxHP(curLevel);
+        moveSpeed = agentData.getMoveSpeed(curLevel);
         agentStatus = agentData.agentStatus;
-        range = agentData.range;
-        detectRange = agentData.detectRange;
-        armor = agentData.armor;
-        mArmor = agentData.mArmor;
+        range = agentData.getRange(curLevel);
+        detectRange = agentData.getDetectRange(curLevel);
+        armor = agentData.getArmor(curLevel);
+        mArmor = agentData.getMArmor(curLevel);
         entityType = agentData.entityType;
         agentType = agentData.agentType;
         AssignCost = agentData.AssignCost;
         SkillCost = agentData.SkillCost;
-        respawnTime = agentData.respawnTime;
-        skillCD = agentData.skillCD;
+        respawnTime = agentData.getRespawnTime(curLevel);
+        skillCD = agentData.getSkillCD(curLevel);
         initialStatus = agentData.initialStatus;
         setWeapon();
     }
@@ -84,42 +88,42 @@ public class AgentBasic : WeaponBasic
     ///��Ҫ�����ݱ�set�Ժ󻹻ᴥ���¼�,�������еļ�����
     public override void setDamage()
     {
-        damage = calculator.calculateFloat(agentData.damage,new CalculateItem[] {CalculateItem.ATTACK_MULTIPLIER,CalculateItem.ATTACK_ADDON,CalculateItem.ATTACK_FINALM });
-        mDamage = calculator.calculateFloat(agentData.mDamage, new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
+        damage = calculator.calculateFloat(agentData.getDamage(curLevel),new CalculateItem[] {CalculateItem.ATTACK_MULTIPLIER,CalculateItem.ATTACK_ADDON,CalculateItem.ATTACK_FINALM });
+        mDamage = calculator.calculateFloat(agentData.getMDamage(curLevel), new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
         weaponBasic.damage = damage;
         weaponBasic.mDamage = mDamage;
         eventDamage.Invoke(damage);
     }
     public override void setRange()
     {
-        range= calculator.calculateFloat(agentData.range, new CalculateItem[] { CalculateItem.RANGE_MULTIPLIER,CalculateItem.RANGE_FINALM });
+        range= calculator.calculateFloat(agentData.getRange(curLevel), new CalculateItem[] { CalculateItem.RANGE_MULTIPLIER,CalculateItem.RANGE_FINALM });
         eventRange.Invoke(range);
     }
     public override void setFireInterval()
     {
-        fireInterval = agentData.fireInterval / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
+        fireInterval = agentData.getFireInterval(curLevel) / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
         weaponBasic.fireInterval = fireInterval;
         //event.Invoke()?
     }
     public override void setArmorPierce()
     {
-        armorPierce = calculator.calculateFloat(agentData.armorPierce, new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
+        armorPierce = calculator.calculateFloat(agentData.getArmorPierce(curLevel), new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
         weaponBasic.armorPierce = armorPierce;
     }
     public override void setMoveSpeed()
     {
-        moveSpeed = calculator.calculateFloat(agentData.moveSpeed, new CalculateItem[] { CalculateItem.SPEED_MULTIPLIER, CalculateItem.SPEED_ADDON, CalculateItem.SPEED_FINALM });
+        moveSpeed = calculator.calculateFloat(agentData.getMoveSpeed(curLevel), new CalculateItem[] { CalculateItem.SPEED_MULTIPLIER, CalculateItem.SPEED_ADDON, CalculateItem.SPEED_FINALM });
         if (moveSpeed < 0) moveSpeed = 0;
         eventSpeed.Invoke(moveSpeed);
     }
     public override void setReloadTime()
     {
-        reloadTime = calculator.calculateFloat(agentData.reloadTime, new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
+        reloadTime = calculator.calculateFloat(agentData.getReloadTime(curLevel), new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
         weaponBasic.reloadTime = reloadTime;
     }
     public override void setHP()
     {
-        maxHP = calculator.calculateFloat(agentData.maxHP, new CalculateItem[] { CalculateItem.HP_MULTIPLIER, CalculateItem.HP_ADDON, CalculateItem.HP_FINALM });
+        maxHP = calculator.calculateFloat(agentData.getMaxHP(curLevel), new CalculateItem[] { CalculateItem.HP_MULTIPLIER, CalculateItem.HP_ADDON, CalculateItem.HP_FINALM });
         //event.Invoke()?
     }
 }

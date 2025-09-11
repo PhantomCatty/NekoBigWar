@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class NavmeshVisualizer : MonoBehaviour
 {
+
+    public bool Active;
     private NavMeshAgent agent;
     public LineRenderer lineRenderer;
 
@@ -12,7 +13,6 @@ public class NavmeshVisualizer : MonoBehaviour
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
 
         //initialization for path visualizer
         if (lineRenderer == null)
@@ -29,33 +29,36 @@ public class NavmeshVisualizer : MonoBehaviour
 
     void Update()
     {
-        // for velocity visualizer
-        if (visualizeVelocity && agent.velocity.sqrMagnitude > 0.01f)
+        if (Active == true && SelectionManager.instance.virtualCanvas.activeSelf == true)
         {
-            Debug.DrawLine(
-                agent.transform.position,
-                agent.transform.position + agent.velocity.normalized * 2f,
-                Color.red
-            );
-        }
-
-        //for path visualizer
-        if (visualizePath)
-        {
-            if (agent.hasPath)
+            agent = SelectionManager.instance.currentObj.GetComponentInChildren<NavMeshAgent>();
+            // for velocity visualizer
+            if (visualizeVelocity && agent.velocity.sqrMagnitude > 0.01f)
             {
-                var corners = agent.path.corners;
-                lineRenderer.positionCount = corners.Length;
-                for (int i = 0; i < corners.Length; i++)
+                Debug.DrawLine(
+                    agent.transform.position,
+                    agent.transform.position + agent.velocity.normalized * 2f,
+                    Color.red
+                );
+            }
+
+            //for path visualizer
+            if (visualizePath)
+            {
+                if (agent.hasPath)
                 {
-                    lineRenderer.SetPosition(i, corners[i]);
+                    var corners = agent.path.corners;
+                    lineRenderer.positionCount = corners.Length;
+                    for (int i = 0; i < corners.Length; i++)
+                    {
+                        lineRenderer.SetPosition(i, corners[i]);
+                    }
+                }
+                else
+                {
+                    lineRenderer.positionCount = 0;
                 }
             }
-            else
-            {
-                lineRenderer.positionCount = 0;
-            }
         }
-
     }
 }

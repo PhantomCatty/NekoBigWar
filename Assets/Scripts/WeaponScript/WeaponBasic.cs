@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//¼ÇÂ¼ÎäÆ÷µÄ»ù±¾ÐÅÏ¢£¬±ÈÈçÀàÐÍ£¬¹¥»÷Á¦µÈÊôÐÔ
-//¿ÉÒÔµ÷ÓÃ×Óµ¯½Å±¾£¬À´ËµÃ÷Õâ¸öÎäÆ÷Ê¹ÓÃµÄÊÇÄÄÖÖ×Óµ¯
-//±»firecontrollerµ÷ÓÃ
+//ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½
+//ï¿½ï¿½firecontrollerï¿½ï¿½ï¿½ï¿½
 
 public enum WeaponType
 {
     Melee,
     SemiAuto,
-    Burst,//Á¬·¢£¬±ð¸ãµÃ¿´²»¶®Ó¢ÎÄÁË
+    Burst,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ï¿½ï¿½ï¿½
     Auto,
     Charge
 }
@@ -24,13 +24,13 @@ public class WeaponBasic:MonoBehaviour
     public float damage;
     public float mDamage;
     public int pierceNum;
-    public float fireInterval;//Á½´Î¹¥»÷Ö®¼äµÄ¼ä¸ô£¬firecontroller»áÓÐÒ»¸ö¼ÆÊ±Æ÷£¬¼ÆÊ±Æ÷ÉÏÏÞ²Î¿¼Õâ¸öÖµ
+    public float fireInterval;//ï¿½ï¿½ï¿½Î¹ï¿½ï¿½ï¿½Ö®ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½firecontrollerï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Þ²Î¿ï¿½ï¿½ï¿½ï¿½Öµ
     public EntityType bulletType;
     public int magazing;
     public float reloadTime;
     public TargetType targetType;
-    public float armorPierce;//´©¼×
-    public float mArmorPierce;//ÎÞÊÓ¿¹ÐÔ
+    public float armorPierce;//ï¿½ï¿½ï¿½ï¿½
+    public float mArmorPierce;//ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½
 
     private void Start()
     {
@@ -38,16 +38,16 @@ public class WeaponBasic:MonoBehaviour
         {
             weaponType = weaponData.weaponType;
             bulletSpeed = weaponData.bulletSpeed;
-            damage = weaponData.damage;
-            mDamage = weaponData.mDamage;
+            damage = weaponData.damage[0];
+            mDamage = weaponData.mDamage[0];
             pierceNum = weaponData.pierceNum;
-            fireInterval = weaponData.fireInterval;
+            fireInterval = weaponData.fireInterval[0];
             bulletType = weaponData.bulletType;
             magazing = weaponData.magazing;
-            reloadTime = weaponData.reloadTime;
+            reloadTime = weaponData.reloadTime[0];
             targetType = weaponData.targetType;
-            armorPierce = weaponData.armorPierce;
-            mArmorPierce = weaponData.mArmorPierce;
+            armorPierce = weaponData.armorPierce[0];
+            mArmorPierce = weaponData.mArmorPierce[0];
         }
     }
 

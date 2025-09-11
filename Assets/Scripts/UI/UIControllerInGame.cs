@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
 using UnityEngine.AI;
+using UnityEngine.Rendering.Universal;
 
 /// <summary>
 /// UIControllerֻ�ṩ��UI��ͼ�����Ľӿ�,�õ�����������������
@@ -24,7 +25,7 @@ public class UIControllerInGame : MonoBehaviour
     //����д�϶�������,�����ɰ�scriptableObject�Ź���,
     public List<GameObject> agentList;//��Ŀ���ŵĸ�Աԭ��(��������sobj),Ҳ����Ԥ����
     public List<GameObject> agentSpriteList;//��Ա��sprite,ֻ�������
-    public List<SlotItem> slotList;//��λ�������б�
+    public List<AgentSlotItem> slotList;//��λ�������б�
 
     public int curIndex;
 
@@ -56,21 +57,35 @@ public class UIControllerInGame : MonoBehaviour
         AmmoBar.fillAmount = 1;
         ExperienceBar.fillAmount = 0;
         LevelLabel.text = "Lv.1";
-        for (int i = 0; i < 8; i++)
-        {
-            agentSpriteList.Add(Instantiate(agentList[i].transform.GetChild(1).gameObject));
-            agentSpriteList[i].GetComponent<SpriteRenderer>().sortingOrder = 40;
-            agentSpriteList[i].GetComponent<Animator>().enabled = false;
-            agentSpriteList[i].SetActive(false);
-            Destroy(agentSpriteList[i].GetComponent<Collider2D>());
-            //slotlist�������ⲿֱ��ָ��
-            //slotList[i] = transform.GetChild(1).GetChild(i).GetComponent<SlotItem>();
-            slotList[i].agentInstance = agentList[i];
-        }
+
+        LoadAgent();
+
         FrontSight.gameObject.SetActive(false);
         AimArea.gameObject.SetActive(false);
     }
 
+    public void LoadAgent()
+    {
+        for (int i = 0; i < slotList.Count; i++)
+        {
+            if (i < agentList.Count)
+            {
+                slotList[i].gameObject.SetActive(true);
+                agentSpriteList.Add(Instantiate(agentList[i].transform.GetChild(1).gameObject));
+                agentSpriteList[i].GetComponent<SpriteRenderer>().sortingOrder = 40;
+                agentSpriteList[i].GetComponent<Animator>().enabled = false;
+                agentSpriteList[i].SetActive(false);
+                Destroy(agentSpriteList[i].GetComponent<Collider2D>());
+                //slotlist�������ⲿֱ��ָ��
+                //slotList[i] = transform.GetChild(1).GetChild(i).GetComponent<SlotItem>();
+                slotList[i].agentInstance = agentList[i];
+            }
+            else
+            {
+                slotList[i].gameObject.SetActive(false);
+            }
+        }
+    }
 
     // Start is called before the first frame update
     void Start()

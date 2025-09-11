@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64362781dfdd0cf4b98048f7bc44f89b, type: 3}
+  m_Name: Support Turret
+  m_EditorClassIdentifier: 
+  itemName: Support Turret
+  description: "\u5728\u57FA\u5730\u9632\u5FA1\u5854\u65C1\u65B0\u589E\u8F85\u52A9\u8FD1\u9632\u70AE\uFF0C\u653B\u51FB\u8303\u56F4\u8F83\u77ED\uFF0C\u653B\u51FB\u529B\u8F83\u4F4E\uFF0C\u653B\u901F\u5FEB\u3002\u70AE\u5854\u88AB\u89C6\u4F5C\u53CB\u519B\u5DE5\u4E8B\uFF0C\u53EF\u4EE5\u4EAB\u53D7\u5BF9\u5E94\u52A0\u6210\u3002"
+  icon: {fileID: 21300000, guid: a236b749df395d94491d7b6872e5e662, type: 3}
+  price: 4
+  itemType: 4

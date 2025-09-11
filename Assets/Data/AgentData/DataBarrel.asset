@@ -14,28 +14,127 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 1
   bulletSpeed: 40
-  damage: 75
-  mDamage: 0
+  damage:
+  - 60
+  - 75
+  - 90
+  - 110
+  - 130
+  - 150
+  - 180
+  - 210
+  - 240
+  - 270
+  mDamage:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   pierceNum: 2
-  fireInterval: 1.5
+  fireInterval:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   bulletType: 4
   magazing: 1
-  reloadTime: 2
+  reloadTime:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
   targetType: 1
-  armorPierce: 50
-  mArmorPierce: 0
-  maxHP: 280
-  moveSpeed: 0.5
+  armorPierce:
+  - 50
+  - 50
+  - 50
+  - 60
+  - 60
+  - 60
+  - 75
+  - 75
+  - 75
+  - 75
+  mArmorPierce:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  agentName: Barrel
+  maxLevel: 10
+  maxHP:
+  - 200
+  - 230
+  - 260
+  - 290
+  - 320
+  - 350
+  - 380
+  - 410
+  - 440
+  - 470
+  moveSpeed:
+  - 0.5
   agentStatus: 0
-  range: 5
-  detectRange: 5
-  armor: 20
-  mArmor: 0
+  range:
+  - 5
+  detectRange:
+  - 5
+  armor:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  mArmor:
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  upgradeCost: 01000000020000000200000002000000030000000300000003000000040000000400000005000000
   agentType: 7
   entityType: 0
   AssignCost: 50
   SkillCost: 30
-  respawnTime: 50
-  skillCD: 40
+  respawnTime:
+  - 50
+  skillCD:
+  - 30
+  initialStatus: 0
   agentIcon: {fileID: 21300000, guid: 0ff3e585666897d4987bc6dcde1bdced, type: 3}
   skillIcon: {fileID: 21300000, guid: 35760f5e917cb7049a1bd3a9029f5707, type: 3}

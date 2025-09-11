@@ -36,16 +36,16 @@ public class EnemyBasic : WeaponBasic
         calculator = GetComponent<BuffCalculator>();
         weaponType = enemyData.weaponType;
         bulletSpeed = enemyData.bulletSpeed;
-        damage = enemyData.damage;
-        mDamage = enemyData.mDamage;
+        damage = enemyData.damage[0];
+        mDamage = enemyData.mDamage[0];
         pierceNum = enemyData.pierceNum;
-        fireInterval = enemyData.fireInterval;
+        fireInterval = enemyData.fireInterval[0];
         bulletType = enemyData.bulletType;
         magazing = enemyData.magazing;
-        reloadTime = enemyData.reloadTime;
+        reloadTime = enemyData.reloadTime[0];
         targetType = enemyData.targetType;
-        armorPierce = enemyData.armorPierce;
-        mArmorPierce = enemyData.mArmorPierce;
+        armorPierce = enemyData.armorPierce[0];
+        mArmorPierce = enemyData.mArmorPierce[0];
         followPrefer1 = enemyData.followPrefer1;
         followPreferDefault = enemyData.followPreferDefault;
 
@@ -73,8 +73,8 @@ public class EnemyBasic : WeaponBasic
     ///��Ҫ�����ݱ�set�Ժ󻹻ᴥ���¼�,�������еļ�����
     public override void setDamage()
     {
-        damage = calculator.calculateFloat(enemyData.damage, new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
-        mDamage = calculator.calculateFloat(enemyData.mDamage, new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
+        damage = calculator.calculateFloat(enemyData.damage[0], new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
+        mDamage = calculator.calculateFloat(enemyData.mDamage[0], new CalculateItem[] { CalculateItem.MAGIC_ATTACK_MULTIPLIER, CalculateItem.MAGIC_ATTACK_ADDON, CalculateItem.MAGIC_ATTACK_FINALM });
         weaponBasic.damage = damage;
         weaponBasic.mDamage = mDamage;
         eventDamage.Invoke(damage);
@@ -86,13 +86,13 @@ public class EnemyBasic : WeaponBasic
     }
     public override void setFireInterval()
     {
-        fireInterval = enemyData.fireInterval / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
+        fireInterval = enemyData.fireInterval[0] / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
         weaponBasic.fireInterval = fireInterval;
         //event.Invoke()?
     }
     public override void setArmorPierce()
     {
-        armorPierce = calculator.calculateFloat(enemyData.armorPierce, new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
+        armorPierce = calculator.calculateFloat(enemyData.armorPierce[0], new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
         weaponBasic.armorPierce = armorPierce;
     }
     public override void setMoveSpeed()
@@ -103,7 +103,7 @@ public class EnemyBasic : WeaponBasic
     }
     public override void setReloadTime()
     {
-        reloadTime = calculator.calculateFloat(enemyData.reloadTime, new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
+        reloadTime = calculator.calculateFloat(enemyData.reloadTime[0], new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
         weaponBasic.reloadTime = reloadTime;
     }
     public override void setHP()

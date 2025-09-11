@@ -45,7 +45,7 @@ public class BaseBasic : WeaponBasic
     ///重要的数据被set以后还会触发事件,重置所有的监听者
     public override void setDamage()
     {
-        damage = calculator.calculateFloat(fortiData.damage, new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
+        damage = calculator.calculateFloat(fortiData.damage[0], new CalculateItem[] { CalculateItem.ATTACK_MULTIPLIER, CalculateItem.ATTACK_ADDON, CalculateItem.ATTACK_FINALM });
         weaponBasic.damage = damage;
         eventDamage.Invoke(damage);
         Debug.Log("final damage:" + damage);
@@ -57,18 +57,18 @@ public class BaseBasic : WeaponBasic
     }
     public override void setFireInterval()
     {
-        fireInterval = fortiData.fireInterval / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
+        fireInterval = fortiData.fireInterval[0] / (float)calculator.getItem(CalculateItem.ATTACK_SPEED_MULTIPLIER);
         weaponBasic.fireInterval = fireInterval;
         //event.Invoke()?
     }
     public override void setArmorPierce()
     {
-        armorPierce = calculator.calculateFloat(fortiData.armorPierce, new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
+        armorPierce = calculator.calculateFloat(fortiData.armorPierce[0], new CalculateItem[] { CalculateItem.ARMOR_PIERCE_MULTIPLIER, CalculateItem.ARMOR_PIERCE_ADDON });
         weaponBasic.armorPierce = armorPierce;
     }
     public override void setReloadTime()
     {
-        reloadTime = calculator.calculateFloat(fortiData.reloadTime, new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
+        reloadTime = calculator.calculateFloat(fortiData.reloadTime[0], new CalculateItem[] { CalculateItem.RELOAD_TIME_MULTIPLIER });
         weaponBasic.reloadTime = reloadTime;
     }
     public override void setHP()

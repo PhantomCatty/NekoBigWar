@@ -17,7 +17,7 @@ public class ASkillVictor : SkillBasic
         curTemp.transform.position = position;
         //curTemp.GetComponentInChildren<SkillEffectBasic>().dataSource = agentBasic;
         fortiBasic = curTemp.GetComponentInChildren<FortificationBasic>();
-        fortiBasic.fortiData.damage = agentBasic.damage*0.5f;
+        fortiBasic.fortiData.damage[0] = agentBasic.damage*0.5f;
         fortiBasic.fortiData.maxHP = agentBasic.maxHP;
         fortiBasic.setDamage();
         fortiBasic.setHP();

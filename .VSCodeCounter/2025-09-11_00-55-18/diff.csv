@@ -1,0 +1,33 @@
+"filename", "language", "C#", "comment", "blank", "total"
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentAimDetector.cs", "C#", 1, 0, 0, 1
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentBasic.cs", "C#", 6, 0, 0, 6
+"d:\u3d项目\Neko Big War\Assets\Scripts\AgentScript\AgentController.cs", "C#", 2, 3, 0, 5
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\AgentData.cs", "C#", 36, 0, 1, 37
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\EnemyData.cs", "C#", 3, 0, 0, 3
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\ItemData.cs", "C#", 21, 6, 4, 31
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\LevelData.cs", "C#", 1, 0, 0, 1
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\StageData.cs", "C#", 20, 0, 2, 22
+"d:\u3d项目\Neko Big War\Assets\Scripts\DataObject\WeaponData.cs", "C#", 24, 0, 1, 25
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyAimDetector.cs", "C#", 112, 44, 8, 164
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyBasic.cs", "C#", 6, 0, 0, 6
+"d:\u3d项目\Neko Big War\Assets\Scripts\EnemyScript\EnemyController.cs", "C#", 7, 2, 2, 11
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\CameraController2D.cs", "C#", 115, 10, 26, 151
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\EnemySpawnController.cs", "C#", 2, 0, 0, 2
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\InGameController.cs", "C#", 78, 18, 17, 113
+"d:\u3d项目\Neko Big War\Assets\Scripts\GamePlay\InGameData.cs", "C#", 42, 2, 5, 49
+"d:\u3d项目\Neko Big War\Assets\Scripts\ItemScript\ItemBasic.cs", "C#", 20, 1, 4, 25
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillBarrel.cs", "C#", 2, 0, 0, 2
+"d:\u3d项目\Neko Big War\Assets\Scripts\Skill\AgentPSkills\PSkillNanic.cs", "C#", -5, 0, 0, -5
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\AgentShopItem.cs", "C#", 75, 10, 10, 95
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\AgentSlotItem.cs", "C#", 107, 8, 8, 123
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\DamageNum.cs", "C#", 1, 0, 0, 1
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\InfoCanvas.cs", "C#", -2, 2, 0, 0
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\ItemShopItem.cs", "C#", 28, 5, 8, 41
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\SlotItem.cs", "C#", -107, -8, -8, -123
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerInGame.cs", "C#", 16, 4, 2, 22
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerPause.cs", "C#", 21, 1, 6, 28
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\UIControllerShop.cs", "C#", 67, 9, 11, 87
+"d:\u3d项目\Neko Big War\Assets\Scripts\UI\WaveController.cs", "C#", 2, 0, 0, 2
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\NavmeshVisualizer.cs", "C#", 50, 3, 8, 61
+"d:\u3d项目\Neko Big War\Assets\Scripts\Util\ObjectPool.cs", "C#", 0, 3, 0, 3
+"Total", "-", 751, 123, 115, 989

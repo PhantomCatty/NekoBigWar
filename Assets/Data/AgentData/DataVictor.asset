@@ -14,28 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 3
   bulletSpeed: 25
-  damage: 12
-  mDamage: 0
+  damage: []
+  mDamage: []
   pierceNum: 2
-  fireInterval: 0.2
+  fireInterval: []
   bulletType: 1
   magazing: 3
-  reloadTime: 2
+  reloadTime: []
   targetType: 1
-  armorPierce: 30
-  mArmorPierce: 0
-  maxHP: 360
-  moveSpeed: 1
+  armorPierce: []
+  mArmorPierce: []
+  agentName: 
+  maxLevel: 10
+  maxHP: []
+  moveSpeed: []
   agentStatus: 0
-  range: 4
-  detectRange: 4
-  armor: 30
-  mArmor: 0
+  range: []
+  detectRange: []
+  armor: []
+  mArmor: []
+  upgradeCost: 01000000020000000200000002000000030000000300000003000000040000000400000005000000
   agentType: 1
   entityType: 0
   AssignCost: 45
   SkillCost: 50
-  respawnTime: 40
-  skillCD: 40
+  respawnTime: []
+  skillCD: []
+  initialStatus: 0
   agentIcon: {fileID: 21300000, guid: 02aeb18a79ae0ca46a05b32405204fb5, type: 3}
   skillIcon: {fileID: 21300000, guid: 8073abaf960542b4eaa135fa1b1222a4, type: 3}

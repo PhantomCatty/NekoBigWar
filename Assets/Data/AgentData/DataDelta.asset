@@ -14,29 +14,100 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 3
   bulletSpeed: 25
-  damage: 8
-  mDamage: 0
+  damage:
+  - 10
+  - 12
+  - 14
+  - 16
+  - 18
+  - 20
+  - 23
+  - 26
+  - 29
+  - 32
+  mDamage:
+  - 0
   pierceNum: 1
-  fireInterval: 0.15
+  fireInterval:
+  - 0.1
   bulletType: 1
   magazing: 3
-  reloadTime: 1.2
+  reloadTime:
+  - 0.5
   targetType: 1
-  armorPierce: 20
-  mArmorPierce: 0
-  maxHP: 480
-  moveSpeed: 0.625
+  armorPierce:
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 30
+  - 30
+  - 30
+  - 30
+  - 30
+  mArmorPierce:
+  - 0
+  agentName: Delta
+  maxLevel: 10
+  maxHP:
+  - 280
+  - 310
+  - 340
+  - 370
+  - 400
+  - 440
+  - 480
+  - 520
+  - 560
+  - 600
+  moveSpeed:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1.1
+  - 1.1
+  - 1.1
+  - 1.1
+  - 1.2
+  - 1.3
   agentStatus: 0
-  range: 4
-  detectRange: 4
-  armor: 35
-  mArmor: 0
+  range:
+  - 3
+  detectRange:
+  - 3
+  armor:
+  - 20
+  - 20
+  - 25
+  - 25
+  - 25
+  - 25
+  - 30
+  - 30
+  - 30
+  - 30
+  mArmor:
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  upgradeCost: 01000000020000000200000002000000030000000300000003000000040000000400000005000000
   agentType: 3
   entityType: 0
   AssignCost: 35
   SkillCost: 20
-  respawnTime: 30
-  skillCD: 30
+  respawnTime:
+  - 25
+  skillCD:
+  - 30
   initialStatus: 0
   agentIcon: {fileID: 21300000, guid: ca3c70995c2871347a77d64395c5ab70, type: 3}
   skillIcon: {fileID: 21300000, guid: bc2c7f1e2f42fb24289f6dbe0f2cf271, type: 3}

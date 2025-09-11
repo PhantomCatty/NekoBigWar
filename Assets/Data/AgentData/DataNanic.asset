@@ -14,29 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 1
   bulletSpeed: 25
-  damage: -24
-  mDamage: 0
+  damage:
+  - -24
+  - -26
+  - -28
+  - -30
+  - -32
+  - -34
+  - -36
+  - -38
+  - -40
+  - -42
+  mDamage:
+  - 0
   pierceNum: 1
-  fireInterval: 1
+  fireInterval:
+  - 0
   bulletType: 3
   magazing: 1
-  reloadTime: 2
+  reloadTime:
+  - 2
   targetType: 18
-  armorPierce: 0
-  mArmorPierce: 0
-  maxHP: 360
-  moveSpeed: 1
-  agentStatus: 0
-  range: 4
-  detectRange: 100
-  armor: 30
-  mArmor: 0
+  armorPierce:
+  - 0
+  mArmorPierce:
+  - 0
+  agentName: Nanic
+  maxLevel: 10
+  maxHP:
+  - 250
+  - 280
+  - 310
+  - 340
+  - 370
+  - 400
+  - 430
+  - 460
+  - 490
+  - 520
+  moveSpeed:
+  - 0.7
+  agentStatus: 1
+  range:
+  - 3
+  detectRange:
+  - 3
+  armor:
+  - 0
+  mArmor:
+  - 0
+  upgradeCost: 01000000020000000200000002000000030000000300000003000000040000000400000005000000
   agentType: 0
   entityType: 0
   AssignCost: 35
   SkillCost: 30
-  respawnTime: 30
-  skillCD: 30
+  respawnTime:
+  - 30
+  skillCD:
+  - 30
   initialStatus: 1
   agentIcon: {fileID: 21300000, guid: d16a7aff134a8984bba20cbf3c447cf2, type: 3}
   skillIcon: {fileID: 21300000, guid: 7b5fd16f6a43c984889724bea8286924, type: 3}
